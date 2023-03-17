@@ -23,16 +23,20 @@
 </head>
 <body>
     
-     <!-- START: container (aside + header + footer) -->
+     <!-- START: container (aside + header + main) -->
      <div class="debug web-app-container">
 
 
+        <!-- start: header -->
         <div class="debug top-area flex flex-dir-row align-it-center just-cont-between padd-5 bg-white">
 
+            <!-- start: logo -->
             <div class="debug width-10">
                 <img class="logo" src="./assets/img/logo.svg" alt="logo">
             </div>
+            <!-- end: logo -->
 
+            <!-- start: search bar -->
             <div class="debug width-70 heigh-40">
 
                 <div class="input-group flex-nowrap height-100p100">
@@ -42,25 +46,24 @@
                     <input type="text" class="form-control height-100p100" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping" style="background-color: var(--color-light-gray);">
                 </div>
 
-                <!-- <form class="d-flex" role="search">
-                    <input class="form-control height-30" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                </form> -->
-
             </div>
+            <!-- end: search bar -->
 
+            <!-- start: right icons -->
             <div class="debug width-15 flex flex-dir-row align-it-center just-cont-around">
 
+                <a href="#">
+                    <i class="fa-solid fa-list-ul"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-circle-question"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </a>
                 
-                
-                <i class="fa-solid fa-list-ul"></i>
-
-                <i class="fa-solid fa-circle-question"></i>
-
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-
-
-                <!-- dropdown menu -->
-                <div class="debug">
+                <!-- start: dropdown menu -->
+                <div>
 
                     <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 0;">
                         <i class="fa-solid fa-bell col-orange"></i>
@@ -73,15 +76,19 @@
                     </ul>
 
                 </div>
+                <!-- end: dropdown menu -->
 
             </div>
+            <!-- end: right icons -->
 
             
         </div>
+        <!-- end: header -->
 
+        <!-- start: aside -->
         <div class="debug aside-area col-white flex flex-dir-col just-cont-between padd-5">
             
-            <ul class="debug user-list-2">
+            <ul class="debug user-list-2 padd-5 margin-auto">
                 <li>
                     <i class="fa-solid fa-house col-white"></i>
                     <a href="#">
@@ -102,16 +109,22 @@
                 </li>
             </ul>
 
-            <div class="debug col-white">
-                <i class="fa-sharp fa-solid fa-gear col-white"></i>
-                Admin
+            <div class="debug admin col-white padd-5 margin-auto">
+                <a href="#" style="text-decoration: none;" class="col-white">
+                    <i class="fa-sharp fa-solid fa-gear col-white"></i>
+                    Admin
+                </a>
+                
             </div>
 
         </div>
+        <!-- end: aside -->
 
-        <div class="debug main-area">
+        <!-- start: main -->
+        <div class="debug main-area padd-5">
             Chicco 3
         </div>
+        <!-- start: main -->
         
 
     </div>

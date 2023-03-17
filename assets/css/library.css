@@ -22,7 +22,8 @@
     --color-white: #FFFFFF;
     --color-black: #23272A;
 
-    --color-light-gray: lightgray;
+    /* --color-light-gray: lightgray; */
+    --color-light-gray: #E5E5E5;
     --color-dark-gray: rgb(170, 170, 170);
     --color-dark-gray-2: #282828;
 
