@@ -34,6 +34,8 @@
     --color-super-dark-red: #D5001F;
 
     --color-yellow: #FFD830;
+    
+    --color-orange: orange;
 
     --max-width-val: 1800px;
 }
@@ -209,6 +211,10 @@ a{
 
 .height-50{
     height: 50%;
+}
+
+.height-80{
+    height: 80%;
 }
 
 /* .height-100{
@@ -537,6 +543,10 @@ a{
 
 .col-yellow{
     color: var(--color-yellow);
+}
+
+.col-orange{
+    color: var(--color-orange);
 }
 
 .col-white{
