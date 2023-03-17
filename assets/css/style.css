@@ -4,3 +4,32 @@
     box-sizing: border-box;
 }
 
+:root{
+    --aside-width-large: 250px;
+    --aside-width-small: 80px;
+    --footer-height: 90px;
+    --header-height: 90px
+}
+
+.debug{
+    border: 2px dashed red;
+}
+
+.web-app-container{
+    height: 100vh;
+    width: 100%;
+}
+
+.top-area{
+    height: 100%;
+    display: flex;
+}
+
+.aside-area{
+
+    background-color: black;
+    width: var(--aside-width-large);
+    height: 100%;
+    display: block;
+
+}
