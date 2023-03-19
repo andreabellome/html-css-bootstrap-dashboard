@@ -13,17 +13,19 @@
 :root{
     --width_boxes: 70%;
 
-    --color-blue: #0084FD; 
+    /* --color-blue: #0084FD; */
     --color-super-blue: #0093CE;
     --color-light-blue: #B5DDFF;
+    --color-blue: #1B72E8;
     --color-super-dark-blue: #0D2481;
+    --color-dark-blue: #0b3064;
     --color-purple: #9792E4;
 
     --color-white: #FFFFFF;
     --color-black: #23272A;
 
     /* --color-light-gray: lightgray; */
-    --color-light-gray: #E5E5E5;
+    --color-light-gray: #F7F7F7;
     --color-dark-gray: rgb(170, 170, 170);
     --color-dark-gray-2: #282828;
 
@@ -110,6 +112,14 @@ a{
     max-width: 650px;
 }
 
+.width-5{
+    width: 5%;
+}
+
+.width-7{
+    width: 7%;
+}
+
 .width-10{
     width: 10%;
 }
@@ -129,6 +139,11 @@ a{
 .width-30{
     width: 30%;
 }
+
+.width-35{
+    width: 35%;
+}
+
 
 .width-40{
     width: 40%;
@@ -294,7 +309,6 @@ a{
     margin-top: 5px;
 }
 
-
 .mt-10{
     margin-top: 10px;
 }
@@ -421,6 +435,10 @@ a{
 
 .font-size-25{
     font-size: 25px;
+}
+
+.font-size-30{
+    font-size: 30px;
 }
 
 .font-size-40{
@@ -572,6 +590,15 @@ a{
 
 .bg-blue{
     background-color: var(--color-blue);
+}
+
+.bg-dark-blue{
+    background-color: var(--color-dark-blueblue);
+}
+
+.bg-dark-blue-important{
+    /* background-color: var(--color-dark-blueblue) !important; */
+    background-color: red !important;
 }
 
 .bg-purple{

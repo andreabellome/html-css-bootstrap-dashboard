@@ -24,20 +24,21 @@
 <body>
     
      <!-- START: container (aside + header + main) -->
-     <div class="debug web-app-container">
+     <div class=" web-app-container">
 
 
         <!-- start: header -->
-        <div class="debug top-area flex flex-dir-row align-it-center just-cont-between padd-5 bg-white">
+        <div class=" top-area flex flex-dir-row align-it-center just-cont-between padd-5 bg-white">
 
             <!-- start: logo -->
-            <div class="debug width-10">
+            <div class=" width-7">
                 <img class="logo" src="./assets/img/logo.svg" alt="logo">
+                <img class="mobile-logo" src="./assets/img/mobile-logo.png" alt="mobile-logo">
             </div>
             <!-- end: logo -->
 
             <!-- start: search bar -->
-            <div class="debug width-70 heigh-40">
+            <div class=" width-70 heigh-20">
 
                 <div class="input-group flex-nowrap height-100p100">
                     <span class="input-group-text" id="addon-wrapping" style="background-color: var(--color-light-gray);">
@@ -50,7 +51,7 @@
             <!-- end: search bar -->
 
             <!-- start: right icons -->
-            <div class="debug width-15 flex flex-dir-row align-it-center just-cont-around">
+            <div class=" width-15 flex flex-dir-row align-it-center just-cont-around">
 
                 <a href="#">
                     <i class="fa-solid fa-list-ul"></i>
@@ -86,9 +87,9 @@
         <!-- end: header -->
 
         <!-- start: aside -->
-        <div class="debug aside-area col-white flex flex-dir-col just-cont-between padd-5">
+        <div class=" aside-area col-white flex flex-dir-col just-cont-between padd-5">
             
-            <ul class="debug user-list-2 padd-5 margin-auto">
+            <ul class=" user-list-2 padd-5 margin-auto">
                 <li>
                     <i class="fa-solid fa-house col-white"></i>
                     <a href="#">
@@ -109,10 +110,10 @@
                 </li>
             </ul>
 
-            <div class="debug admin col-white padd-5 margin-auto">
+            <div class=" admin col-white padd-5 margin-auto">
                 <a href="#" style="text-decoration: none;" class="col-white">
                     <i class="fa-sharp fa-solid fa-gear col-white"></i>
-                    Admin
+                    <span class="col-white">Admin</span>
                 </a>
                 
             </div>
@@ -121,8 +122,537 @@
         <!-- end: aside -->
 
         <!-- start: main -->
-        <div class="debug main-area padd-5">
-            Chicco 3
+        <div class=" main-area" style="overflow: auto;">
+            
+            <div class=" blue-nav-bar">
+
+                <div class=" card-blue-nav-start col-white">
+                    <h2 style="display: inline-block;">
+                        Boolean
+                    </h2>
+                    <span class="badge rounded-pill text-bg-primary" style="background-color: #0D2481 !important;">Piano blaze</span>
+                    <br>
+
+                    <span class="badge rounded-pill text-bg-primary" style="background-color: #0D2481 !important;">3 app</span>
+                    <i class="fa-solid fa-greater-than col-white"></i>
+                    <i class="fa-solid fa-greater-than col-white"></i>
+
+                    <span class="badge rounded-pill text-bg-primary badge-disp-none" style="background-color: #0D2481 !important;">Boolean mobile app</span>
+
+                    <span class="badge rounded-pill text-bg-primary badge-disp-none" style="background-color: #0D2481 !important;">Boolean web app</span>
+
+                    <span class="badge rounded-pill text-bg-primary badge-disp-none" style="background-color: #0D2481 !important;">Boolean blog app</span>
+
+                    <span class="badge rounded-pill text-bg-primary badge-disp-none-plus" style="background-color: #0D2481 !important;">
+                        <a href="#">
+                            <i class="fa-solid fa-plus col-white"></i>
+                        </a>
+                        
+                    </span>
+
+                    
+                </div>
+
+                <div class=" card-blue-nav-mid col-white">
+                    <div class="col-white">Studenti online negli ultimi 30 minuti</div>
+                    <div class="col-white font-size-30">125</div>
+                </div>
+
+                <div class=" card-blue-nav-end col-white">
+                    <span class="col-white mr-10">Nuovo studente</span>
+
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style="border: 2px solid white;">
+                        <i class="fa-solid fa-plus col-white"></i>
+                    </button>
+
+                    
+                      
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+
+                            <!-- start: first card offcanvas -->
+                            <div class=" flex flex-dir-row padd-5 mb-10">
+
+                                <!-- start: left card offcanvas -->
+                                <div class=" width-50 padd-5">
+                                    
+                                    <!-- start: nome -->
+                                    <div class="mb-3">
+
+                                        <label for="exampleInputName1" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                                        
+                                    </div>
+                                    <!-- end: nome -->
+
+                                    <!-- start: email -->
+                                    <div class="mb-3">
+
+                                        <label for="exampleInputEmail1" class="form-label">Email</label>
+
+                                        <div class="input-group flex-nowrap">
+                                            <span class="input-group-text" id="addon-wrapping" style="background-color: var(--color-light-gray);">
+                                                <i class="fa-solid fa-at"></i>
+                                            </span>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                        
+                                    </div>
+                                    <!-- end: email -->
+
+                                </div>
+                                <!-- end: left card offcanvas -->
+
+                                <!-- start: right card offcanvas -->
+                                <div class=" width-50 padd-5">
+                                    
+                                    <!-- start: cognome -->
+                                    <div class="mb-3">
+
+                                        <label for="exampleSurnameName1" class="form-label">Cognome</label>
+                                        <input type="text" class="form-control" id="exampleSurnameName1" aria-describedby="surnameHelp">
+                                        
+                                    </div>
+                                    <!-- end: cognome -->
+
+                                    <!-- start: password -->
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <!-- end: password -->
+
+                                </div>
+                                <!-- end: right card offcanvas -->
+
+                            </div>
+                            <!-- end: first card offcanvas -->
+
+                            <!-- start: indirizzo -->
+                            <div class="mb-10  padd-10">
+
+                                <label for="exampleInputName1" class="form-label">Indirizzo</label>
+                                <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                                
+                            </div>
+                            <!-- end: indirizzo -->
+
+                            <!-- start: citta, stato, cap -->
+                            <div class=" flex flex-dir-row just-cont-between padd-10">
+
+                                <div class="mb-3 width-35">
+
+                                    <label for="exampleInputName1" class="form-label">Città</label>
+                                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                                    
+                                </div>
+
+                                <div class="mb-3 width-30">
+
+                                    <label for="exampleInputName1" class="form-label">Stato</label>
+                                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                        <option selected>Scegli...</option>
+                                        <option value="1">Italia</option>
+                                        <option value="2">Francia</option>
+                                        <option value="3">Inghilterra</option>
+                                      </select>
+                                    
+                                </div>
+
+                                <div class="mb-3 width-30">
+
+                                    <label for="exampleInputName1" class="form-label">CAP</label>
+                                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                                    
+                                </div>
+
+                            </div>
+                            <!-- end: citta, stato, cap -->
+
+
+                            <!-- start: foto -->
+                            <div class=" padd-10 mb-3">
+
+
+                                <div>
+
+                                    <label for="exampleInputEmail1" class="form-label">Foto</label>
+
+                                    <div class="input-group mb-3">
+
+                                        <input type="file" class="form-control" id="inputGroupFile02">
+                                        <label class="input-group-text" for="inputGroupFile02">Upload</label>
+    
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- end: foto -->
+
+                            <div class=" padd-10">
+
+
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1" style="margin-bottom: 3px;"> Seleziona per proseguire</label>
+                                <br>
+
+                                <button type="submit" class="btn btn-primary">Salva</button>
+                                <button type="submit" class="btn btn-primary" style="background-color: orange !important; border: none;">Svuota</button>
+
+                            </div>
+
+                            
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class=" main-bottom-area">
+
+
+                <div class=" main-card-left padd-5">
+                    
+                    <div class="card" style="width: 100%; margin-bottom: 20px;">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item" style="background-color: lightgray; font-size: 30px;">
+                            Prossime classi
+                          </li>
+                          <li class="list-group-item">
+
+                            <table class="table" style="width:100%">
+                                <thead>
+                                  <tr>
+                                    <th scope="col" class="class-main-col">Nome</th>
+                                    <th scope="col" class="col-phone-none" style="text-align: center;">Data inizio</th>
+                                    <th scope="col" style="text-align: center;" class="col-phone-none">ROI</th>
+                                    <th scope="col" style="text-align: center;">Stato</th>
+                                    <th scope="col" style="text-align: center;">Azioni</th>
+                                  </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>
+
+                                            <div class="flex align-it-center">
+                                                <img style="display: inline-block; height: 25px; width: 25px; border-radius: 100%; background-color: #F48070; padding: 5px; margin-right: 5px;" src="./assets/img/spans.svg" alt="spans">
+                                                Classe 75
+                                            </div>
+                                        </td>
+                                        <td style="text-align: center;" class="col-phone-none">15 Feb 2021</td>
+                                        <td style="text-align: center;" class="col-phone-none">20%</td>
+                                        <td style="text-align: center;">
+                                            <span class="badge rounded-pill text-bg-primary" style="background-color: green !important;">Done</span>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <i class="fa-solid fa-pen mr-5"></i>
+                                            <i class="fa-solid fa-trash"></i>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+
+                                            <div class="flex align-it-center">
+                                                <img style="display: inline-block; height: 25px; width: 25px; border-radius: 100%; background-color: #F48070; padding: 5px; margin-right: 5px;" src="./assets/img/spans.svg" alt="spans">
+                                                Classe 76
+                                            </div>
+                                        </td>
+                                        <td style="text-align: center;" class="col-phone-none">16 Feb 2021</td>
+                                        <td style="text-align: center;" class="col-phone-none">20%</td>
+                                        <td style="text-align: center;">
+                                            <span class="badge rounded-pill text-bg-primary" style="background-color: green !important;">Done</span>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <i class="fa-solid fa-pen mr-5"></i>
+                                            <i class="fa-solid fa-trash"></i>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="flex align-it-center">
+                                                <img style="display: inline-block; height: 25px; width: 25px; border-radius: 100%; background-color: #F48070; padding: 5px; margin-right: 5px;" src="./assets/img/spans.svg" alt="spans">
+                                                Classe 77
+                                            </div>
+                                        </td>
+                                        <td style="text-align: center;" class="col-phone-none">17 Feb 2021</td>
+                                        <td style="text-align: center;" class="col-phone-none">20%</td>
+                                        <td style="text-align: center;">
+                                            <span class="badge rounded-pill text-bg-primary" style="background-color: orange !important;">Process</span>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <i class="fa-solid fa-pen mr-5"></i>
+                                            <i class="fa-solid fa-trash"></i>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+
+                                            <div class="flex align-it-center">
+                                                <img style="display: inline-block; height: 25px; width: 25px; border-radius: 100%; background-color: #F48070; padding: 5px; margin-right: 5px;" src="./assets/img/spans.svg" alt="spans">
+                                                Classe 78
+                                            </div>
+                                        </td>
+                                        <td style="text-align: center;" class="col-phone-none">18 Feb 2021</td>
+                                        <td style="text-align: center;" class="col-phone-none">20%</td>
+                                        <td style="text-align: center;">
+                                            <span class="badge rounded-pill text-bg-primary" style="background-color: green !important;">Done</span>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <i class="fa-solid fa-pen mr-5"></i>
+                                            <i class="fa-solid fa-trash"></i>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+
+                                            <div class="flex align-it-center">
+                                                <img style="display: inline-block; height: 25px; width: 25px; border-radius: 100%; background-color: #F48070; padding: 5px; margin-right: 5px;" src="./assets/img/spans.svg" alt="spans">
+                                                Classe 79
+                                            </div>
+                                        </td>
+                                        <td style="text-align: center;" class="col-phone-none">19 Feb 2021</td>
+                                        <td style="text-align: center;" class="col-phone-none">20%</td>
+                                        <td style="text-align: center;">
+                                            <span class="badge rounded-pill text-bg-primary" style="background-color: red !important;">Failed</span>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <i class="fa-solid fa-pen mr-5"></i>
+                                            <i class="fa-solid fa-trash"></i>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+
+                                            <div class="flex align-it-center">
+                                                <img style="display: inline-block; height: 25px; width: 25px; border-radius: 100%; background-color: #F48070; padding: 5px; margin-right: 5px;" src="./assets/img/spans.svg" alt="spans">
+                                                Classe 80
+                                            </div>
+                                        </td>
+                                        <td style="text-align: center;" class="col-phone-none">20 Feb 2021</td>
+                                        <td style="text-align: center;" class="col-phone-none">20%</td>
+                                        <td style="text-align: center;">
+                                            <span class="badge rounded-pill text-bg-primary" style="background-color: green !important;">Done</span>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <i class="fa-solid fa-pen mr-5"></i>
+                                            <i class="fa-solid fa-trash"></i>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+
+                                            <div class="flex align-it-center">
+                                                <img style="display: inline-block; height: 25px; width: 25px; border-radius: 100%; background-color: #F48070; padding: 5px; margin-right: 5px;" src="./assets/img/spans.svg" alt="spans">
+                                                Classe 81
+                                            </div>
+                                        </td>
+                                        <td style="text-align: center;" class="col-phone-none">21 Feb 2021</td>
+                                        <td style="text-align: center;" class="col-phone-none">20%</td>
+                                        <td style="text-align: center;">
+                                            <span class="badge rounded-pill text-bg-primary" style="background-color: red !important;">Failed</span>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <i class="fa-solid fa-pen mr-5"></i>
+                                            <i class="fa-solid fa-trash"></i>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+
+                                            <div class="flex align-it-center">
+                                                <img style="display: inline-block; height: 25px; width: 25px; border-radius: 100%; background-color: #F48070; padding: 5px; margin-right: 5px;" src="./assets/img/spans.svg" alt="spans">
+                                                Classe 82
+                                            </div>
+                                        </td>
+                                        <td style="text-align: center;" class="col-phone-none">22 Feb 2021</td>
+                                        <td style="text-align: center;" class="col-phone-none">20%</td>
+                                        <td style="text-align: center;">
+                                            <span class="badge rounded-pill text-bg-primary" style="background-color: green !important;">Done</span>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <i class="fa-solid fa-pen mr-5"></i>
+                                            <i class="fa-solid fa-trash"></i>
+                                        </td>
+                                    </tr>
+                                  
+                                  
+                                </tbody>
+                                
+                            </table>
+
+                          </li>
+                        </ul>
+
+                    </div>
+
+
+
+                    <div class="card" style="width: 100%; margin-bottom: 20px;">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item" style="background-color: lightgray; font-size: 30px;">
+                            F.A.Q.
+                          </li>
+                          <li class="list-group-item" style="padding: 20px;">
+
+                            <div class=" border-bottom-col-dark flex flex-dir-col just-cont-between card-top" style="margin-top: 5px;" >
+
+                                <div class=" flex flex-dir-row just-cont-between card-a">
+                                    <p class=" font-size-15 text-bold">
+                                        Come aggiungere un nuovo studente?
+                                    </p>
+                                    <i class="fa-solid fa-chevron-down "></i>
+                                </div>
+                
+                                <div class="flex flex-dir-col just-cont-between card-b">
+                
+                                    <div class="flex flex-dir-row just-cont-between">
+                                        <p class=" font-size-15 text-bold">
+                                            Come aggiungere un nuovo studente?
+                                        </p>
+                                        <i class="fa-solid fa-chevron-up"></i>
+                                    </div>
+                
+                                    <p class="mt-20">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero enim eaque cupiditate vitae laborum consequatur similique, explicabo recusandae nostrum nam culpa, tempora accusamus. Vitae nobis odit earum autem neque veniam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero enim eaque cupiditate vitae laborum consequatur similique, explicabo recusandae nostrum nam culpa, tempora accusamus. Vitae nobis odit earum autem neque veniam!
+                                    </p>
+                
+                                </div>
+                                
+                            </div>
+
+                            <div class="border-bottom-col-dark flex flex-dir-col just-cont-between card-top" style="margin-top: 5px;">
+
+                                <div class="flex flex-dir-row just-cont-between card-a">
+                                    <p class="font-size-15 text-bold">
+                                        Come aggiungere un nuovo studente?
+                                    </p>
+                                    <i class="fa-solid fa-chevron-down "></i>
+                                </div>
+                
+                                <div class="flex flex-dir-col just-cont-between card-b">
+                
+                                    <div class="flex flex-dir-row just-cont-between">
+                                        <p class=" font-size-15 text-bold">
+                                            Come aggiungere un nuovo studente?
+                                        </p>
+                                        <i class="fa-solid fa-chevron-up"></i>
+                                    </div>
+                
+                                    <p class="mt-20">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero enim eaque cupiditate vitae laborum consequatur similique, explicabo recusandae nostrum nam culpa, tempora accusamus. Vitae nobis odit earum autem neque veniam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero enim eaque cupiditate vitae laborum consequatur similique, explicabo recusandae nostrum nam culpa, tempora accusamus. Vitae nobis odit earum autem neque veniam!
+                                    </p>
+                
+                                </div>
+                                
+                            </div>
+
+                            <div class="border-bottom-col-dark flex flex-dir-col just-cont-between card-top" style="margin-top: 5px;">
+
+                                <div class="flex flex-dir-row just-cont-between card-a">
+                                    <p class="font-size-15 text-bold">
+                                        Come aggiungere un nuovo studente?
+                                    </p>
+                                    <i class="fa-solid fa-chevron-down "></i>
+                                </div>
+                
+                                <div class="flex flex-dir-col just-cont-between card-b">
+                
+                                    <div class="flex flex-dir-row just-cont-between">
+                                        <p class=" font-size-15 text-bold">
+                                            Come aggiungere un nuovo studente?
+                                        </p>
+                                        <i class="fa-solid fa-chevron-up"></i>
+                                    </div>
+                
+                                    <p class="mt-20">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero enim eaque cupiditate vitae laborum consequatur similique, explicabo recusandae nostrum nam culpa, tempora accusamus. Vitae nobis odit earum autem neque veniam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero enim eaque cupiditate vitae laborum consequatur similique, explicabo recusandae nostrum nam culpa, tempora accusamus. Vitae nobis odit earum autem neque veniam!
+                                    </p>
+                
+                                </div>
+                                
+                            </div>
+
+                          </li>
+                        </ul>
+
+                    </div>
+
+
+                </div>
+
+                
+
+
+
+                <div class=" main-card-right padd-5">
+                    
+                    <div class="card" style="width: 100%; margin-bottom: 20px;">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item" style="background-color: lightgray; font-size: 30px;">
+                            Todo
+                          </li>
+                          <li class="list-group-item">
+
+                            <div class="card" style="width: 100%;">
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label for="vehicle1"> Kickoff nuove classi</label>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label for="vehicle1">Lezioni su Bootstrap 5 in classe #75</label>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label for="vehicle1">Contollare username GitHub studenti</label>
+                                  </li>
+                                </ul>
+                            </div>
+
+                          </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card" style="width: 100%;">
+                        <img src="./assets/img/stats.jpeg" class="card-img-top" alt="stats">
+                        <div class="card-body">
+                          <h5 class="card-title">Utenti attivi</h5>
+                          <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Gennaio: 1200</li>
+                          <li class="list-group-item">Febbraio: 800</li>
+                          <li class="list-group-item">Marzo: 1500</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Visualizza report approfondito</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
         </div>
         <!-- start: main -->
         
