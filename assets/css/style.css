@@ -1,4 +1,3 @@
-/* start: areas */
 
 :root{
     --aside-width-large: 150px;
@@ -7,6 +6,7 @@
     --height-blue-nav-bar: 120px;
 }
 
+/* start: areas */
 .web-app-container{
     height: 100vh;
     width: 100%;
