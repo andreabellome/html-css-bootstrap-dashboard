@@ -165,9 +165,12 @@
     background-color:rgba(109, 109, 109, 0.6);
 }
 
+.variable-width-tablet-phone{
+    width: 70%;
+}
+
 
 /* start: media query small-screen */
-
 @media only screen and (max-width: 1430px) {
     .class-main-col{
         width: 50%;
@@ -179,7 +182,6 @@
         width: 45%;
     }
 }
-
 
 @media only screen and (max-width: 1130px) {
 
@@ -275,6 +277,14 @@
 
     .mobile-logo{
         display: inline-block;
+    }
+
+    .disp-none-tablet-phone{
+        display: none;
+    }
+
+    .variable-width-tablet-phone{
+        width: 75%;
     }
 
 }
