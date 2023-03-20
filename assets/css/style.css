@@ -87,7 +87,7 @@
 .blue-nav-bar{
     
     background-color: var(--color-blue);
-    padding: 5px;
+    padding: 15px;
 
     display: flex;
     flex-direction: row;
