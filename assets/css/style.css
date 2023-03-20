@@ -72,27 +72,6 @@
     height: 20%;
 }
 
-.card-b{
-    display: none;
-}
-
-.card-top:hover .card-a{
-    display: none;
-}
-
-.card-top:hover .card-b{
-    display: block;
-}
-
-.hover-disp:hover{
-    display: block;
-}
-
-.hover-disp-none:hover{
-    display: none;
-}
-
-
 .class-main-col{
     width: 60%;
 }
